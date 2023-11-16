@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="lv">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rīgas Tehniskā koledža</title>
   <link rel="stylesheet" href="main.css">
   <script>
@@ -12,24 +12,26 @@
   </script>
 </head>
 <body>
-  <header>
-    <nav>
-      <div><img src = "images/logo.png" class = "rtk"></div>
+    <div class = "block">
+      <img src = "images/logo.png" class = "rtk">
+    </div>
+    <div class = "block1">
       <a href="javascript:void(0);" onclick="changeIframeSource('1.html', this)">1. uzdevums</a>
+    </div>
+    <div class = "block2">
       <a href="javascript:void(0);" onclick="changeIframeSource('2.html', this)">2. uzdevums</a>
+    </div>
+    <div class = "block3">
       <a href="https://www.rtk.lv">Par darba autoru</a>
-    </nav>
-  </header>
+    </div>
     <div class="content-panel">
       <iframe id="main-iframe" src="1.html"></iframe>
     </div>
-  <footer>
-    <p>
-      Kirils Obodnikovs, 2023 ©
+    <div class = "blockcopyright"><i>Kirils Obodnikovs, 2023 ©</i></div>
+    <div class = "blocksocial">
       <a href="https://www.facebook.com/"><img class = "social-icon" src = "images/facebook.png"></a>
       <a href="https://twitter.com/"><img class = "social-icon" src = "images/X.png"></a>
       <a href="https://www.linkedin.com/"><img class="social-icon" src = "images/LinkedIn.png"></a>
-    </p>
-  </footer>
+    </div>
 </body>
 </html>
